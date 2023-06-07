@@ -1,0 +1,53 @@
+html {
+    margin:0;
+    padding:0;
+  }
+  body {
+    display:block;
+    color: rgb(77, 78, 83);
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight:400;
+  }
+  #scroll {
+    margin:0;
+    overflow:scroll;
+    scroll-behavior: smooth;
+    height: 100%;
+  }
+  #navbar {
+    position: fixed;
+    border-right: 2px solid  rgb(77, 78, 83);
+    padding:auto 0;
+    height:100%;
+  }
+  #title {
+    font-weight: 700;
+    font-size:28.8px;
+  }
+  .title {
+    margin:0;
+    list-style-type:none;
+    list-style-position: inside;
+    border-top: 1px solid rgb(77, 78, 83);
+    padding: 10px;
+    text-align:center;
+  }
+  .nav-link {
+    text-decoration:none;
+    color:rgb(77, 78, 83);
+  }
+  #main-doc {
+    margin-left:350px;
+    padding:10px;
+  
+  }
+  .code {
+    padding:10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+  }
+  @media (min-width:500px) and (max-width:3000px) {
+    body {
+      width:100%;
+    }
+  }
